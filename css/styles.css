@@ -1,0 +1,48 @@
+body{
+  text-align: center;
+}
+
+.count{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container{
+  width: auto;
+  margin: auto;
+  padding: 0 20vw;
+}
+
+.text{
+  margin-top: 8vh;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 0
+}
+
+.text textarea{
+  padding: 5px 10px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 3px #B2B2B2);
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+textarea:focus{
+  outline: none;
+}
+
+.copyBtn{
+  margin-top: 5vh;
+}
+
+.copyBtn button{
+  padding: 12px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  background-color: #29c9a9;
+  border: 1px solid green;
+  cursor: pointer;
+}

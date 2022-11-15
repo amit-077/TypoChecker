@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=300, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Grammarly Clone</h1>
+      </div>
+      <div class="desc">
+        <p>Check your English text for grammar, spelling, and punctuation errors for free.</p>
+      </div>
+
+      <!-- GRAMMARLY PLUGIN -->
+      <grammarly-editor-plugin>
+      <div class="text" >
+        <textarea class="typedText" name="typedText" rows="10" cols="80" maxlength="150"></textarea>
+      </div>
+      </grammarly-editor-plugin>
+      <!-- GRAMMARLY PLUGIN -->
+      <div class="copyBtn">
+        <button id="copy"> Copy Text</button>
+      </div>
+      <div class="count">
+        <p>Total Character: <span id="typedWords">0</span></p>
+        <p>Remaining: <span id="remainingWords">150</span></p>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@grammarly/editor-sdk?clientId=client_9VBxvSGQ2g2bUFJQNsDt5J"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
